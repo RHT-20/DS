@@ -140,6 +140,7 @@ int main()
                 f = 0;
                 top.clear();
                 dfs(i);
+                printf("Cycle = %d\n",cycle);
                 if(cycle==1)
                 {
                     f = 1;
